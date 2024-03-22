@@ -35,7 +35,7 @@ body {
 
 header {
     background-color: var(--cor4);
-    height: 110px;
+    height: 100px;
     color: white;
 }
 
@@ -56,22 +56,28 @@ header > p {
 }
 
 nav {
-    background-color: #40385e;
-    padding-top: 5px;
+    background-color: #443b63;
     height: 25px;
+    padding-top: 5px;
 }
 
 nav > a {
     color: white;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+
     text-decoration: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+
+    border-radius: 20px;
+
     padding: 7px;
+    padding-left: 15px;
 }
 
-nav > a:hover {
-    color: var(--cor2);
-    background-color: #423a61;
-}
+
+
+
 
 
