@@ -82,9 +82,9 @@ main {
 .mainh1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 1.3em;
 
-    width: 100vw;
+    width: 39vw;
 
     padding-top: 50px;
     padding-left: 173px;
@@ -93,11 +93,11 @@ main {
 .paragrafo1 {
     font-family: 'Montserrat', sans-serif ;
     font-weight: bold;
-    font-size: 0.8em;
+    font-size: 0.6em;
     
     text-align: left;
 
-    width: 50vw;
+    width: 33vw;
 
     padding-left: 173px;
     padding-top: 10px;
