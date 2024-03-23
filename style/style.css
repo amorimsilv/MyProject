@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* MOBILE FIRST / MOBILE FIRST / MOBILE FIRST / MOBILE FIRST / MOBILE FIRST / MOBILE FIRST / MOBILE FIRST */
 
 /*
@@ -20,17 +24,12 @@ Grandes Telas: Acima de 1200px
     --cor3: #8980BF;
     --cor4: #4F4573;
     --cor5: #735634;
-
-    --fonte1: @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 }
 
 * {
     margin: 0px;
     padding: 0px;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 
 header {
@@ -40,7 +39,7 @@ header {
 }
 
 header > h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-weight: 700;
     font-size: 2.5em;
     text-align: center;
@@ -49,7 +48,7 @@ header > h1 {
 
 header > p {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 0.8em;
     font-weight: 700;
     margin-top: 7px;
@@ -74,6 +73,49 @@ nav > a {
 
     padding: 7px;
     padding-left: 15px;
+}
+
+main {
+    color: black;
+}
+
+.mainh1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.7em;
+
+    text-align: right;
+
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+.paragrafo1 {
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: bold;
+    
+    text-align: left;
+
+    width: 50%;
+
+    padding-left: 235px;
+    padding-top: 20px;
+    position: absolute;
+}
+
+img {
+    background-color: black;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px black;
+
+    margin-top: -40px;
+    margin-left: 10px;
+
+    width: 200px;
+    height: 350px;
+
+
 }
 
 
