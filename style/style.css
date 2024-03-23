@@ -33,14 +33,12 @@ Grandes Telas: Acima de 1200px
 
 header {
     background-color: var(--cor4);
-    width: 99vw;
     height: 100px;
     color: white;
 }
 
 header > h1 {
     font-family: 'Arial', sans-serif;
-    width: 99vw;
     font-weight: 700;
     font-size: 2.5em;
     text-align: center;
@@ -51,7 +49,6 @@ header > p {
     text-align: center;
     font-family: 'Arial', sans-serif;
     font-size: 0.8em;
-    width: 99vw;
     font-weight: 700;
     margin-top: 7px;
 }
@@ -59,7 +56,6 @@ header > p {
 nav {
     background-color: #443b63;
     height: 25px;
-    width: 99vw;
     padding-top: 5px;
 }
 
@@ -71,7 +67,6 @@ nav > a {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 0.9em;
-    width: 99vw;
 
     border-radius: 20px;
 
@@ -81,13 +76,14 @@ nav > a {
 
 main {
     color: black;
-    width: 99vw;
 }
 
 .mainh1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 1.7em;
+
+    width: 96vw;
 
     text-align: right;
 
@@ -101,7 +97,7 @@ main {
     
     text-align: left;
 
-    width: 50%;
+    width: 50vw;
 
     padding-left: 235px;
     padding-top: 20px;
@@ -116,6 +112,8 @@ img {
 
     margin-top: -40px;
     margin-left: 10px;
+    display: absolute;
+    position: absolute;
 
     width: 200px;
     height: 350px;
