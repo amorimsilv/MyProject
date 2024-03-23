@@ -87,7 +87,7 @@ main {
     width: 100vw;
 
     padding-top: 50px;
-    padding-left: 185px;
+    padding-left: 173px;
 }
 
 .paragrafo1 {
@@ -97,9 +97,9 @@ main {
     
     text-align: left;
 
-    width: 55vw;
+    width: 50vw;
 
-    padding-left: 185px;
+    padding-left: 173px;
     padding-top: 10px;
     position: absolute;
 }
@@ -111,7 +111,7 @@ img {
     box-shadow: 0px 0px 7px black;
 
     margin-top: -40px;
-    margin-left: 20px;
+    margin-left: 10px;
     position: absolute;
 
     width: 150px;
