@@ -86,8 +86,8 @@ main {
 
     width: 100vw;
 
-    padding-top: 25px;
-    padding-left: 200px;
+    padding-top: 50px;
+    padding-left: 185px;
 }
 
 .paragrafo1 {
@@ -99,8 +99,8 @@ main {
 
     width: 55vw;
 
-    padding-left: 200px;
-    padding-top: 20px;
+    padding-left: 185px;
+    padding-top: 10px;
     position: absolute;
 }
 
@@ -110,7 +110,7 @@ img {
     border-radius: 20px;
     box-shadow: 0px 0px 7px black;
 
-    margin-top: -25px;
+    margin-top: -40px;
     margin-left: 20px;
     position: absolute;
 
