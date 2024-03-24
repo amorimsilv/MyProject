@@ -82,7 +82,7 @@ main {
     color: white;
     margin: 0px;
     padding: 0px;
-    width: 98vw;
+    width: 99vw;
     height: 100vh;
 }
 
@@ -132,6 +132,25 @@ main {
     filter: grayscale(0%);
     transition: 1.3s all ease;
 } */
+
+.jogadoresatividades {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 230px;
+    text-align: center;
+}
+
+.atividadesphoto {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+
+.ativiphoto1 {
+    background-color: black;
+    margin: 20px;
+    width: 75px;
+    height: 75px;
+}
 
 
 
