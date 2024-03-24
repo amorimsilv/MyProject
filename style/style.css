@@ -145,11 +145,16 @@ main {
     height: 50px;
 }
 
-.ativiphoto1 {
+.haalandphoto {
     background-color: black;
+
+    width: 50px;
+    height: auto;
+
     margin: 20px;
-    width: 75px;
-    height: 75px;
+
+    border-radius: 50%;
+
 }
 
 
